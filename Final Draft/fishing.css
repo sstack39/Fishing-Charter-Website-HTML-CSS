@@ -1,0 +1,148 @@
+* { box-sizing: border-box; }
+
+header, nav, main, footer {
+display: block;
+}
+
+body {
+background-color: #A9A9A9; color: #3333CC;
+font-family: Verdana, Arial, sans-serif;
+}
+
+header {
+background-color: #9BC1C2;
+background-image: url(MahiMahi.jpg);
+background-repeat: no-repeat;
+background-position: right;
+height: 150px;
+padding-top: 2em;
+}
+
+h1 {
+padding-top:50px;
+padding-left:2em;
+color: #F0FFFF;
+}
+
+nav {
+position: fixed;
+top: 10em;
+text-align: center;
+font-weight: bold;
+padding: 1em;
+width: 160px;
+}
+
+nav a {
+text-decoration: none;
+display: block;
+text-align: center;
+font-weight: bold;
+border: 3px #CCCCCC outset;
+padding: 1em;
+margin-bottom: 1em;
+}
+
+nav a:link {
+color: #3F2860;
+}
+
+nav a:visited {
+color: #497777;
+}
+
+nav a:hover {
+color:#A26100; border: 3px #333333 inset;
+}
+
+nav ul{
+list-style-type: none; margin: 0; padding: 0;
+}
+
+.studio {
+font-style: italic;
+}
+
+footer {
+background-color: #A9A9A9;
+color: #F0FFFF;
+font-size: .60em;
+text-align: center;
+font-style: italic;
+padding: 1em;
+}
+
+#wrapper {
+width: 960px;
+margin-left: auto;
+margin-right: auto;
+background-color: #00FFFF;
+min-width:1200px;
+max-width:1480px;
+}
+
+main{
+padding-left:2em;
+padding-right:2em;
+display:block;
+margin-left: 170px;
+padding-top: 1em;
+}
+
+
+#hero {
+text-align: center;
+}
+
+.clear{
+clear: both;
+}
+
+iframe {
+display: block;
+margin: auto;
+}
+
+/*style for label */
+
+label{
+
+float: left;
+
+display: block;
+
+text-align: right;
+
+font-weight: bold;
+
+width: 10em;
+
+padding-right: 1em;
+
+}
+
+/*style input elements like textbox and textarea */
+
+input,textarea{
+
+display: block;
+
+margin-bottom: 2em;
+
+}
+
+/*style for button with id=mySubmit */
+
+#mySubmit{
+
+margin-left: 12em;
+
+}
+
+/*style for form */
+
+form{
+
+padding: 3em;
+
+}
